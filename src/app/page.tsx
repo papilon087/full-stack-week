@@ -1,6 +1,7 @@
 "use client";
 
 import QuikiSearch from "./components/QuickSearch";
+import RecommendedTrips from "./components/RecommendeTrips";
 import TripSearch from "./components/TripSearch";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
     <div className="">
       <TripSearch />
       <QuikiSearch />
+      <RecommendedTrips />
     </div>
   );
 }
