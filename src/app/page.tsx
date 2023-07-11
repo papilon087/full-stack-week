@@ -1,5 +1,3 @@
-"use client";
-
 import QuikiSearch from "./components/QuickSearch";
 import RecommendedTrips from "./components/RecommendeTrips";
 import TripSearch from "./components/TripSearch";
