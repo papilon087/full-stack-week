@@ -8,6 +8,7 @@ const getTripDetails = async (tripId: string) => {
       id: tripId,
     },
   });
+
   return trip;
 };
 
